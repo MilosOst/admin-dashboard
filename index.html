@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,58 +8,59 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="sidebar-header">
-                <img src="./imgs/microsoft-windows.svg" alt="Windows Logo">
-                <h1>Dashboard</h2>
-            </div>
-            <div class="main-links">
-                <div class="sidebar-item">
-                    <img src="./imgs/home.svg" alt="Home Picture">
-                    <h3>Home</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/profile-svgrepo-com.svg" alt="Profile Icon">
-                    <h3>Profile</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/message-square.svg" alt="Message Icon">
-                    <h3>Messages</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/clock.svg" alt="History Clock Icon">
-                    <h3>History</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/tasks-svgrepo-com.svg" alt="Tasks Icon">
-                    <h3>Tasks</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/people-svgrepo-com.svg" alt="Community Icon">
-                    <h3>Community</h3>
-                </div>
-            </div>
-            <div class="secondary-links">
-                <div class="sidebar-item">
-                    <img src="./imgs/settings.svg" alt="Settings Icon">
-                    <h3>Settings</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/help-circle.svg" alt="Support Icon">
-                    <h3>Support</h3>
-                </div>
-                <div class="sidebar-item">
-                    <img src="./imgs/lock-protection-safety-secure-security-shield-svgrepo-com.svg" alt="Security Icon">
-                    <h3>Security</h3>
-                </div>
-            </div>
 
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <img src="./imgs/microsoft-windows.svg" alt="Windows Logo">
+            <h2>Dashboard</h2>
         </div>
+        <div class="main-links">
+            <div class="sidebar-item">
+                <img src="./imgs/home.svg" alt="Home Picture">
+                <h3>Home</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/profile-svgrepo-com.svg" alt="Profile Icon">
+                <h3>Profile</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/message-square.svg" alt="Message Icon">
+                <h3>Messages</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/clock.svg" alt="History Clock Icon">
+                <h3>History</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/tasks-svgrepo-com.svg" alt="Tasks Icon">
+                <h3>Tasks</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/people-svgrepo-com.svg" alt="Community Icon">
+                <h3>Community</h3>
+            </div>
+        </div>
+        <div class="secondary-links">
+            <div class="sidebar-item">
+                <img src="./imgs/settings.svg" alt="Settings Icon">
+                <h3>Settings</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/help-circle.svg" alt="Support Icon">
+                <h3>Support</h3>
+            </div>
+            <div class="sidebar-item">
+                <img src="./imgs/lock-protection-safety-secure-security-shield-svgrepo-com.svg" alt="Security Icon">
+                <h3>Security</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="header">
             <div class="search-section">
-                
+
                 <label for="searchbar">
                     <img src="./imgs/search.svg" alt="Search Bar Icon">
                 </label>
@@ -81,9 +83,93 @@
             </div>
         </div>
         <main class="content">
-            Filler
+            <h3>My Projects</h3>
+            <div class="content-grid">
+                <div class="projects">
+                    <article class="project-entry">
+                        <h4><a href="https://milosost.github.io/etch-a-sketch/">Etch a Sketch</a></h4>
+                        <img src="./imgs/previews/etch-preview.png" alt="Etch a Sketch Screenshot">
+                        <p class="description">
+                            A Sketchpad that allows users to fill in areas with a chosen colour, adjust grid size and
+                            toggle grid lines.
+                        </p>
+                        <div class="view">
+                            <a href="https://milosost.github.io/etch-a-sketch/"><img src="./imgs/eye.svg"
+                                    alt="Eye Icon to View Github Repository"></a>
+                            <a href="https://github.com/MilosOst/etch-a-sketch"><img src="./imgs/github.svg"
+                                    alt="Github Link"></a>
+                        </div>
+                    </article>
+                    <article class="project-entry">
+                        <h4><a href="https://milosost.github.io/rock-paper-scissors/">Rock Paper Scissors</a></h4>
+                        <img src="./imgs/previews/rps-preview.png" alt="Rock Paper Scissors Screenshot">
+                        <p class="description">
+                            A Rock Paper Scissors game against the CPU starting with 5 lives.
+                        </p>
+                        <div class="view">
+                            <a href="https://milosost.github.io/rock-paper-scissors/"><img src="./imgs/eye.svg"
+                                    alt="Eye Icon to View Github Repository"></a>
+                            <a href="https://github.com/MilosOst/rock-paper-scissors"><img src="./imgs/github.svg"
+                                    alt="Github Link"></a>
+                        </div>
+                    </article>
+                    <article class="project-entry">
+                        <h4><a href="https://milosost.github.io/signup-form/">Signup Form</a></h4>
+                        <img src="./imgs/previews/signup-form-preview.png" alt="Sign Up Form Preview">
+                        <p class="description">
+                            A Prototype Sign-Up Form for a workout tracking app.
+                        </p>
+                        <div class="view">
+                            <a href="https://milosost.github.io/signup-form/"><img src="./imgs/eye.svg"
+                                    alt="Eye Icon to View Github Repository"></a>
+                            <a href="https://github.com/MilosOst/signup-form"><img src="./imgs/github.svg"
+                                    alt="Github Link"></a>
+                        </div>
+                    </article>
+                    <article class="project-entry">
+                        <h4><a href="https://milosost.github.io/signup-form/">Signup Form</a></h4>
+                        <img src="./imgs/previews/signup-form-preview.png" alt="Sign Up Form Preview">
+                        <div class="view">
+                            <a href="https://milosost.github.io/signup-form/"><img src="./imgs/eye.svg"
+                                    alt="Eye Icon to View Github Repository"></a>
+                            <a href="https://github.com/MilosOst/signup-form"><img src="./imgs/github.svg"
+                                    alt="Github Link"></a>
+                        </div>
+                    </article>
+                </div>
+
+                <aside class="other">
+                    <div class="announcements">
+                        <h4>Announcements</h4>
+                        <div class="other-box">
+                            <div class="announcement">
+                                <h5>Site Maintenance</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus orci id lacus
+                                    commodo eleifend. Ut mi leo,
+                                    consequat sed augue ut, venenatis blandit enim. Nulla ut consequat nulla. Sed quis
+                                    odio turpis. Nulla interdum
+                                    malesuada mauris et sodales. 
+                                </p>
+                            </div>
+                            <div class="announcement">
+                                <h5>Community Share Day</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dignissimos doloremque
+                                    accusamus earum quod assumenda distinctio exercitationem facilis quas nostrum fugiat...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending">
+                        <h4>Trending</h4>
+                        <div class="other-box">
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
         </main>
     </div>
-    
+
 </body>
+
 </html>
